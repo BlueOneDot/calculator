@@ -1,8 +1,10 @@
 package com.blueonedot.calculator;
 
 public class Yeonjin {
-    public static void main(String[] args) {
+   public void random(){
 
-    }
+       int random = (int) (Math.random()*5);
+       System.out.println(random);
+   }
 
 }
