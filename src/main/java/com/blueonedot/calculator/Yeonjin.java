@@ -2,7 +2,7 @@ package com.blueonedot.calculator;
 import java.util.Scanner;
 
 public class Yeonjin {
-    public void remain() {
+    public void calculatorRemain1() {
 
         Scanner sc = new Scanner(System.in);
 
