@@ -24,7 +24,6 @@ public class Euuuuuuan {
             case '-':
                 result = num1 - num2;
                 break;
-            case ''
         }
         
         System.out.println(result);
