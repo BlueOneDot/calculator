@@ -7,5 +7,6 @@ public class Application1 {
         yeonjin.remain();
 
 
+
     }
 }
