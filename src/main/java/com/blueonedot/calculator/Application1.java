@@ -9,6 +9,7 @@ public class Application1 {
         hy.calculatorPlus1();
 
 
+        Euuuuuuan euan = new Euuuuuuan();
+        euan.calculator();
     }
-
-    }
+}
