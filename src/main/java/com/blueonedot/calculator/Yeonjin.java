@@ -17,6 +17,7 @@ public class Yeonjin {
 
         System.out.println("두 정수를 나눈 나머지는: " + remainder);
 
+
     }
 
 }
