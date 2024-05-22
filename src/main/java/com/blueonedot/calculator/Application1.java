@@ -6,7 +6,6 @@ public class Application1 {
         Yeonjin yeonjin = new Yeonjin();
         yeonjin.remain();
 
-
-
     }
+
 }
