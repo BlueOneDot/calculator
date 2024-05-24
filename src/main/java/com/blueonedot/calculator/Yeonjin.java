@@ -11,6 +11,7 @@ public class Yeonjin {
        System.out.println("정수 두 개를 입력받아 둘 중 더 작은 수를 출력합니다.");
        System.out.println();
 
+
        System.out.println("첫 번째 숫자를 입력하세요 : ");
        int num1 = sc.nextInt();
 
