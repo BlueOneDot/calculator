@@ -1,9 +1,9 @@
 package com.blueonedot.calculator;
-import java.util.Scanner;
 
 import java.util.Scanner;
 
 public class Yeonjin {
+
     public void calculatorMin() {
 
        Scanner sc = new Scanner(System.in);
@@ -44,4 +44,5 @@ public class Yeonjin {
       System.out.println("두 정수를 나눈 나머지는 : " + remainder);
 
    }
+
 }
