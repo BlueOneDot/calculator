@@ -1,9 +1,10 @@
 package com.blueonedot.calculator;
+import java.util.Scanner;
 
 import java.util.Scanner;
 
 public class Yeonjin {
-   public void randomPrint(){
+    public void calculatorRemain1() {
 
        Scanner sc = new Scanner(System.in);
 
