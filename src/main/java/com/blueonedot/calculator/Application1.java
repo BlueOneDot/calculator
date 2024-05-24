@@ -62,7 +62,7 @@ public class Application1 {
                     break;
 
                 case "2":
-                    // yj.randomPrint();
+                    // yj.random();
                     break;
 
                 default:
