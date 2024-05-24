@@ -13,7 +13,8 @@ public class Euuuuuuan {
 
         int result = arr[0] - arr[1];
 
-        System.out.println("결과값: " + result);
+        System.out.println(arr[0] + " 와 " + arr[1] + " 의 - 값은 : " + result + " 입니다.");
+
 
     }
 
@@ -31,10 +32,10 @@ public class Euuuuuuan {
         int[] arr = new int[2];
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("연산할 첫번째 숫자를 입력하세요. : ");
+        System.out.print("첫 번째 값을 입력하세요. : ");
         arr[0] = sc.nextInt();
 
-        System.out.print("연산할 두번째 숫자를 입력하세요. : ");
+        System.out.print("두 번째 값을 입력하세요. : ");
         arr[1] = sc.nextInt();
         return arr;
     }

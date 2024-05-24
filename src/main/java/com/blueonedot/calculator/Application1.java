@@ -10,21 +10,18 @@ public class Application1 {
 
         Parkhayarn hy = new Parkhayarn(); //하얀님
         Euuuuuuan euan = new Euuuuuuan(); //유안님
-        Dmsgpk dms = new Dmsgpk();
-        Seongeun se = new Seongeun();
-        Yeonjin yj = new Yeonjin();
-
-
-
+        Dmsgpk dms = new Dmsgpk(); //은혜님
+        Seongeun se = new Seongeun(); //성은님
+        FinalYeonjin yj = new FinalYeonjin(); //연진님
 
         while (true) {
 
             System.out.println("원하시는 기능을 입력해주세요");
-            System.out.println("+. 두수를 더하는 기능");
-            System.out.println("-. 두수를 빼는 기능");
-            System.out.println("*. 두수를 곱하는 기능");
-            System.out.println("/. 두수를 나누는 기능");
-            System.out.println("%. 두수의 몫을 구하는 기능");
+            System.out.println("+. 두수를 더하고 더한 값을 구하는 기능");
+            System.out.println("-. 두수를 빼고 뺀 값을 구하는 기능");
+            System.out.println("*. 두수를 곱하고 곱한 값을 구하는 기능");
+            System.out.println("/. 두수를 나누고 몫을 구하는 기능");
+            System.out.println("%. 두수의 나머지 구하는 기능");
             System.out.println("1. 최대값 구하기");
             System.out.println("2. 최소값 구하기");
 
@@ -35,7 +32,7 @@ public class Application1 {
 
                 break;
             }
-//
+
 //        System.out.println("두번째 값을 입력하세요.");
 
             switch (str) {
@@ -62,7 +59,7 @@ public class Application1 {
                     break;
 
                 case "2":
-                    // yj.random();
+                     yj.calculatorMin();
                     break;
 
                 default:
