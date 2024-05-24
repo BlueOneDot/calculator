@@ -55,11 +55,11 @@ public class Application1 {
                     Dmsgpk dms = new Dmsgpk();
                     dms.calculatorMax();
                     break;
-//
-//            case "2":
-//                Seongeun se = new Seongeun();
-//                se.calculatorDivide();
-//                break;
+
+                case "2":
+                    Yeonjin yj = new Yeonjin();
+                    yj.randomPrint();
+                    break;
 
                 default:
                     System.out.println("잘못 입력하셨습니다.");
