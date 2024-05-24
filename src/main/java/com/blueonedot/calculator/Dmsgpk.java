@@ -8,19 +8,18 @@ public class Dmsgpk {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("곱하기 계산기 ver.1 입니다.");
 
-        System.out.println("첫 번째 숫자를 입력하세요. (소수점까지 입력하세요) : ");
+        System.out.println("첫 번째 숫자를 입력하세요. : ");
         double value1 = sc.nextDouble();
 
-        System.out.println("두 번째 숫자를 입력하세요. (소수점까지 입력하세요) : ");
+        System.out.println("두 번째 숫자를 입력하세요. : ");
         double value2 = sc.nextDouble();
 
         System.out.println();
         double result = 0;
         result = value1 * value2;
 
-        System.out.println( value1 + " 와 " + value2 + " 의 + 결과는 : " + result + " 입니다.");
+        System.out.println( value1 + " 와 " + value2 + " 의 * 값은 : " + result + " 입니다.");
         System.out.println();
 
     }
@@ -31,18 +30,17 @@ public class Dmsgpk {
         System.out.println("정수 두 개를 입력받아 둘 중 더 큰 수를 출력합니다.");
         System.out.println();
 
-        System.out.println("첫 번째 숫자를 입력하세요 : ");
+        System.out.println("첫 번째 값를 입력하세요 : ");
         int num1 = sc.nextInt();
 
         System.out.println();
 
-        System.out.println("두 번째 숫자를 입력하세요 : ");
+        System.out.println("두 번째 값를 입력하세요 : ");
         int num2 = sc.nextInt();
 
         Math.max(num1, num2);
 
-
-        System.out.println("max : " +Math.max(num1, num2));
+        System.out.println(num1 + " 와 " + num2 + " 중 최대값은 : " + Math.max(num1, num2) + " 입니다.");
 
     }
 
