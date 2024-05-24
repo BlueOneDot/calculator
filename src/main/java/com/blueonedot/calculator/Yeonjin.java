@@ -1,7 +1,5 @@
 package com.blueonedot.calculator;
-
 import java.util.Scanner;
-
 
 public class Yeonjin {
     public void calculatorRemain1() {
@@ -16,11 +14,9 @@ public class Yeonjin {
        System.out.println("두 번째 값을 입력하세요 : ");
        int num2 = sc.nextInt();
 
-       Math.min(num1, num2);
+        int remainder = num1 % num2;
 
-       System.out.println(num1 + " 와 " + num2 + " 중 최소값은 : " + Math.min(num1, num2) + " 입니다.");
-
-
-   }
-
+        System.out.println("두 정수를 나눈 나머지는: " + remainder);
+    }
 }
+
